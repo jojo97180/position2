@@ -1,0 +1,47 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.tete 
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:#7fff00;
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+.oeil-gauche
+{
+    top: 30px;
+    left:50px;
+    position: relative;
+}
+
+.oeil-droit
+{
+    top: 30px;
+    right: 50px;
+    position: relative;
+    bottom: 70px;;
+}
+
+.bouche
+{
+    position: absolute;
+    bottom: 50px;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+
+}
+
